@@ -1,0 +1,19 @@
+# pycharm
+.idea/
+.DS_Store
+__pycharm__/
+*.py[cod]
+*$py.class
+
+# checkpoint
+checkpoint/*
+!.gitkeep
+
+# data
+dataset/*
+!.gitkeep
+database/
+encoding/
+
+# log
+log/
