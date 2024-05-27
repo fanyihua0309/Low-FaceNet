@@ -4,6 +4,8 @@
 
 This repo is the official implementation of "Low-FaceNet: Face Recognition-Driven Low-Light Image Enhancement". 
 
+Yihua Fan, Yongzhen Wang, Dong Liang, Yiping Chen, Haoran Xie, Fu Lee Wang, Jonathan Li, and Mingqiang Wei
+
 > **Abstract:**
 >
 > Images captured in low-light conditions often induce the performance degradation of cutting-edge face recognition models. The missing and wrong face recognition inevitably makes vision-based systems operate poorly. In this paper, we propose Low-FaceNet, a novel face recognition-driven network to make low-level image enhancement (LLE) interact with high-level recognition for realizing mutual gain under a unified deep learning framework. Unlike existing methods, Low-FaceNet uniquely brightens real-world images by unsupervised contrastive learning and absorbs the wisdom of facial understanding. Low-FaceNet possesses an image enhancement network that is assembled by four key modules: a contrastive learning module, a feature extraction module, a semantic segmentation module, and a face recognition module. These modules enable Low-FaceNet to not only improve the brightness contrast and retain features but also increase the accuracy of recognizing faces in low-light conditions. Furthermore, we establish a new dataset of low-light face images called LaPa-Face. It includes detailed annotations with 11 categories of facial features and identity labels. Extensive experiments demonstrate our superiority against state-of-the-art methods of both LLE and face recognition even without ground-truth image labels. 
@@ -18,7 +20,7 @@ This repo is the official implementation of "Low-FaceNet: Face Recognition-Drive
 
 - Feb 2, 2024:  Our research paper has been accepted for publication in IEEE Transactions on Instrumentation and Measurement (TIM). 
 
-- Mar 23, 2024: The paper is now available at [IEEE Early Access](https://ieeexplore.ieee.org/document/10476748).
+- Mar 21, 2024: The paper is now available at [IEEE TIM](https://ieeexplore.ieee.org/document/10476748).
 
 - Mar 30, 2024: Released the training code.
 
